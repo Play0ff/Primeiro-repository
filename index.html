@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
@@ -7,11 +8,69 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>
-        <img src="/img/supertop.webp">
-        <p>qual quer oura coisa</p>
-        <h1>macho</h1>
-    </div>
+    <section id="home">
+        <nav>
+            <img src="/img/logo.png" alt="">
+            <ul>
+                <li>
+                    <a href="/home">HOME</a>
+                </li>
+                <li>
+                    <a href="">Aprofissional</a>
+                </li>
+                <li>
+                    <a href="">ESPERIÊNCIA</a>
+                </li>
+                <li>
+                    <a href="">FORTIFOLO</a>
+                </li>
+                <li>
+                    <a href="">CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section id="proficional">
+        <div>
+            <h1>EU SOU PlayOff</h1>
+            <p>DESENVOLVEDOR WEB</p>
+        </div><img src="" alt="">
+    </section>
 </body>
+<style>
+    section#home {
+        background-color: #707b8b;
+
+        nav {
+            padding: 10px 0;
+            max-width: 1000px;
+            display: flex;
+            margin: 0 auto;
+            width: 100%;
+            justify-content: space-around;
+
+            img {
+                width: 50px;
+                height: auto;
+            }
+
+            ul {
+                list-style: none;
+                display: flex;
+                gap: 20px;
+                align-items: center;
+
+                li {
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    section#proficional {}
+</style>
+
 </html>
